@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio2", "Laboratorio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio2.2", "..\Laboratorio2.2\Laboratorio2.2.csproj", "{3795FA93-8F8D-49A1-B0DA-B581AE815B69}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab2", "Lab2", "{C0EB1309-C732-4338-B776-1637D8F9528E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{89FC24C3-B73E-4B76-B822-88EC5A1E784A} = {C0EB1309-C732-4338-B776-1637D8F9528E}
+		{3795FA93-8F8D-49A1-B0DA-B581AE815B69} = {C0EB1309-C732-4338-B776-1637D8F9528E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {48289F68-E91D-4A98-A0C6-F42EFE97709C}
